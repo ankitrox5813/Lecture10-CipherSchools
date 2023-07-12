@@ -1,13 +1,13 @@
 let person = {
-    firstName: "Shantanu",
-    lastName: "Shubham",
+    firstName: "Ankit",
+    lastName: "Singh",
      
     getFullName: function () {
       return 'The name of the person is ${person.firstName} ${person. lastName}` ;
     },
     phoneNumber: {
-      mobile: "12345",
-      landline: "6789",
+      mobile: "764586",
+      landline: "4586",
     },
 };
     console.log(person.getFullName());
