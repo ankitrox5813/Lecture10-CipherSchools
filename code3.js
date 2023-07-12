@@ -1,11 +1,11 @@
 const coder = {
-    isStudying: false,
+    isCoding: false,
     printIntroduction: function () {
-        console.log('My name is ${this.name}. Am I studying?: ${this.isStudying}'); 
+        console.log('My name is ${this.name}. Am I Coding?: ${this.isCoding}'); 
     },
 };
 const me = Object.create(coder);
-me.name = "Shantanu Shubham";
+me.name = "Ankit Singh";
 
-me.isStudying = true;
+me.isCoding = true;
 me.printIntroduction();
